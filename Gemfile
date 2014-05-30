@@ -8,6 +8,8 @@ group :development, :test do
     gem 'sqlite3'
     #testing suite
     gem 'rspec-rails'
+    #automated testing
+    gem 'guard-rspec'
 end
 group :test do
     gem 'selenium-webdriver'
